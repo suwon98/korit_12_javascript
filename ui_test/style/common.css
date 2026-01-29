@@ -1,0 +1,49 @@
+@import url(./reset.css);
+
+.header {
+    display: block;
+    margin: 460px;
+    padding: 200px;
+}
+.ol, ul, li{
+    list-style: none;
+}
+.logo {
+    display: block;
+}
+.logo a {
+    cursor: pointer;
+}
+
+.body{
+    position: relative;
+    align-items: center;
+    width: 100%;
+    min-height: 100%;
+    overflow-y: scroll;
+}
+.btn {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.fPw, .lPw {
+    margin: 5px;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.otpMsg {
+    position: fixed;
+    background-color: black;
+    color: white;
+    top: 0;
+}
+
